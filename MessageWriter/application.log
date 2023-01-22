@@ -1,0 +1,26 @@
+2023-01-21 18:25:29.854  INFO 8540 --- [main] M.M.MessageWriterApplication             : Starting MessageWriterApplication using Java 16.0.1 on DESKTOP-N9DDKGE with PID 8540 (C:\Users\a3621\Downloads\MessageWriter\MessageWriter\target\classes started by a3621 in C:\Users\a3621\Downloads\MessageWriter\MessageWriter)
+2023-01-21 18:25:29.878  INFO 8540 --- [main] M.M.MessageWriterApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-01-21 18:25:32.847  INFO 8540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-21 18:25:33.081  INFO 8540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 179 ms. Found 1 JPA repository interfaces.
+2023-01-21 18:25:34.586  INFO 8540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-21 18:25:34.618  INFO 8540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-21 18:25:34.620  INFO 8540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-21 18:25:35.441  INFO 8540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-21 18:25:35.443  INFO 8540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5331 ms
+2023-01-21 18:25:36.223  INFO 8540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-21 18:25:36.391  INFO 8540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-21 18:25:36.808  INFO 8540 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-21 18:25:37.168  INFO 8540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-21 18:25:39.662  INFO 8540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-21 18:25:39.726  INFO 8540 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-01-21 18:25:41.719  INFO 8540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-21 18:25:41.774  INFO 8540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 18:25:42.719  WARN 8540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-21 18:25:44.101  INFO 8540 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-21 18:25:44.277  INFO 8540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-21 18:25:44.326  INFO 8540 --- [main] M.M.MessageWriterApplication             : Started MessageWriterApplication in 16.115 seconds (JVM running for 22.794)
+2023-01-21 18:25:45.045  INFO 8540 --- [RMI TCP Connection(1)-192.168.99.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-21 18:25:45.046  INFO 8540 --- [RMI TCP Connection(1)-192.168.99.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-21 18:25:45.049  INFO 8540 --- [RMI TCP Connection(1)-192.168.99.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-21 18:26:08.560  INFO 8540 --- [http-nio-8080-exec-1] M.M.service.impl.MessageServiceImpl      : {"message": "test message", "type": "test type", "level": "test lvel", "time": "2023-01-21 17:30:30.129"}
+2023-01-21 18:27:20.374  INFO 8540 --- [http-nio-8080-exec-4] M.M.service.impl.MessageServiceImpl      : {"message": "test message", "type": "test type", "level": "test lvel", "time": "2023-01-21 17:30:30.127"}

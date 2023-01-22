@@ -1,0 +1,25 @@
+2023-01-21 18:40:18.693  INFO 1944 --- [main] M.M.MessageWriterApplication             : Starting MessageWriterApplication using Java 16.0.1 on DESKTOP-N9DDKGE with PID 1944 (C:\Users\a3621\Downloads\MessageWriter\MessageWriter\target\classes started by a3621 in C:\Users\a3621\Downloads\MessageWriter\MessageWriter)
+2023-01-21 18:40:18.699  INFO 1944 --- [main] M.M.MessageWriterApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-01-21 18:40:21.478  INFO 1944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-21 18:40:21.641  INFO 1944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interfaces.
+2023-01-21 18:40:23.101  INFO 1944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-21 18:40:23.120  INFO 1944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-21 18:40:23.121  INFO 1944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-21 18:40:23.501  INFO 1944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-21 18:40:23.502  INFO 1944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4597 ms
+2023-01-21 18:40:24.238  INFO 1944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-21 18:40:24.432  INFO 1944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-21 18:40:24.749  INFO 1944 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-21 18:40:24.981  INFO 1944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-21 18:40:25.468  INFO 1944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-21 18:40:25.546  INFO 1944 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-01-21 18:40:27.300  INFO 1944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-21 18:40:27.320  INFO 1944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 18:40:27.879  WARN 1944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-21 18:40:28.928  INFO 1944 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-21 18:40:29.363  INFO 1944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-21 18:40:29.405  INFO 1944 --- [main] M.M.MessageWriterApplication             : Started MessageWriterApplication in 12.045 seconds (JVM running for 14.919)
+2023-01-21 18:40:29.825  INFO 1944 --- [RMI TCP Connection(3)-192.168.99.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-21 18:40:29.826  INFO 1944 --- [RMI TCP Connection(3)-192.168.99.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-21 18:40:29.830  INFO 1944 --- [RMI TCP Connection(3)-192.168.99.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-01-21 18:40:48.463  INFO 1944 --- [http-nio-8080-exec-2] M.M.service.impl.MessageServiceImpl      : {"message": "test message", "type": "test type", "level": "test lvel", "time": "2023-01-21 17:30:30.127"}
